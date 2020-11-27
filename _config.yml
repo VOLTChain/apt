@@ -23,6 +23,10 @@ defaults:
 apt:
   # Default APT domain.
   domain: apt.voltchain.io
+
+  # Default repo
+  repo: ubuntu
+
   # Staticly define the components and the order (most used ones first)
   components:
     - stable
