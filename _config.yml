@@ -1,0 +1,58 @@
+# -----------------
+#  Site
+# -----------------
+
+timezone: UTC
+
+title: VOLTChain APT
+description: VOLTChain APT Packages Information
+
+baseurl: /apt
+destination: ./_site/apt
+
+defaults:
+  - scope:
+      path: ""
+      type: "packages"
+    values:
+      layout: "package"
+
+# -----------------
+#  APT
+# -----------------
+apt:
+  # Default APT domain.
+  domain: apt.voltchain.io
+  # Staticly define the components and the order (most used ones first)
+  components:
+    - stable
+    - edge
+    - testing
+
+# -----------------
+#  Collections
+# -----------------
+collections:
+  repos:
+    permalink: "/:name"
+    output: true
+  packages:
+    permalink: "/:path"
+    output: true
+
+# -----------------
+#  Build config
+# -----------------
+
+sass:
+  # Compress (minify) css output.
+  style: compressed
+
+exclude:
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - vendor
+  - node_modules

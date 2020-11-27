@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% assign id = page.slug %}
+{% assign dists = site.packages | where: 'Repo', id | group_by: 'Archive' %}
+
+<h2>{{ page.title }} repository</h2>
+
+{% include setup-instructions.html repo=id domain=page.domain %}
+
+<h2>Choose your ubuntu version below</h2>
+
+<ul>
+{% for dist in dists %}
+	{% assign info = site.data.dists[dist.name] %}
+	<li><a href="{{ page.url | relative_url }}/{{ dist.name }}">{{ dist.name }} {{ info.version }}</a> - {{ dist.items.size }} Packages</li>
+{% endfor %}
+</ul>
