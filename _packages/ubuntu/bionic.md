@@ -1,4 +1,4 @@
 ---
 layout: dist
-title: "volt/bionic"
+title: "ubuntu/bionic"
 ---
