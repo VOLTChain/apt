@@ -21,6 +21,13 @@ Priority: optional
 Repo: ubuntu
 Section: devel
 Versions:
+  2.0.7-volt01-2:
+    Filename: volt-207-volt01_2.0.7-volt01-2-ubuntu-18.04_amd64.deb
+    Size: "45675520"
+    MD5sum: cd65147d9398df6e00ef5e81f7b8d9be
+    SHA1: 9518ba220999d0781dbb2a1714ffccb0619e55e9
+    SHA256: 88e0b07c4ebf38f4d4abc947e4a2e50c5b4fa25f2f0272b4a84c1bc3cdb2cc5f
+    SHA512: 406afb66e067d112529cdd34a224f37e401899b8834a9f83f86a3f14595a8715e276ee05811ddeeb4f466bdc07b5cacf0a97b93c4e51928a63ba55bab0dd6110
   2.0.7-volt01:
     Filename: volt-207-volt01_2.0.7-volt01-ubuntu-18.04_amd64.deb
     Size: "45674980"
