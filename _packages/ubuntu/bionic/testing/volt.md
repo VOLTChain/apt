@@ -21,6 +21,13 @@ Priority: optional
 Repo: ubuntu
 Section: devel
 Versions:
+  2.0.8-volt04:
+    Filename: volt_2.0.8-volt04-ubuntu-18.04_amd64.deb
+    Size: "45714908"
+    MD5sum: cd84ba4cdbd0b214eb868e8481e26928
+    SHA1: 62ef3f54ff5fb631c7efc685c83f84e2c3a7e3f3
+    SHA256: b372da941272778baa52169dd154284247c6e6eda6eb30be89eef6474dda4d79
+    SHA512: 08315f8903ee5717d5836de9055d39d599a6ab095f3677bd9d4cd744da3d2dade127f77dc54a959bf447e6d122fbe78843f8fe5f27e6a51b71a85bcedb84d230
   2.0.8-volt03:
     Filename: volt_2.0.8-volt03-ubuntu-18.04_amd64.deb
     Size: "45681612"
